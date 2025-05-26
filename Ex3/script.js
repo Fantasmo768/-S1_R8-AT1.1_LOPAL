@@ -5,9 +5,9 @@ let quantidadeNumero = 0;
 let mensagem = [] //Variável da mensagem
 
 for (let i = 0; i < 10; i++) { //Looping para pedir os números
-    numero = parseFloat(prompt(`Digite o valor do ${i + 1}° número`)) //Variável que vai pedir os números
+    numero = parseInt(prompt(`Digite o valor do ${i + 1}° número`)) //Variável que vai pedir os números
     while (isNaN(numero)) { //Valor que vai pedir o número de novo caso não seja um número
-        numero = parseFloat(prompt(`Digite o valor do ${i + 1}° número`))
+        numero = parseInt(prompt(`Digite o valor do ${i + 1}° número`))
     }
     numeros [i] = numero
 }

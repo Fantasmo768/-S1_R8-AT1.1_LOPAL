@@ -3,9 +3,9 @@ let numero = 0; //Valor dos números que ele irá pedir
 let soma = 0; //Valor da soma
 
 for (let i = 0; i < 10; i++) { //Looping para pedir o número e fazer o cálculo
-    numero = parseFloat(prompt(`Digite o valor do ${i + 1}° número`)) //Variável para pedir os números
+    numero = parseInt(prompt(`Digite o valor do ${i + 1}° número`)) //Variável para pedir os números
     while (isNaN(numero)) { //Looping para checar se o valor é um número e vai pedir de novo caso não seja
-        numero = parseFloat(prompt(`Digite o valor do ${i + 1}° número`))
+        numero = parseInt(prompt(`Digite o valor do ${i + 1}° número`))
     }
     numeros[i] = numero
 }
