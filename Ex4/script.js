@@ -16,7 +16,6 @@ for (let i = 0; i < 10; i++) { //Looping para checar se existem duplicatas
     for (let j = 0; j < quantidadeSemDupli; j++) { //For alinhado para checar se o jaExiste é verdadeiro
         if (semDupli[j] === numeros[i]) { //Se o semDupli j já possuir o número i o já existe é true
             jaExiste = true
-            break
         }
     }
 
